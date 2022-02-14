@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd89fd53-8e1e-47c7-a7d9-693f86cfe688" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/GetDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/InsertDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BillingDetailsStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ConfirmOrderStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DeliveryDetailsStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DeliveryMethodStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DesktopsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LaptopsAndNotebooksPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MacBookAirPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PaymentMethodStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/BillingDetailsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/ConfirmOrderSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DeliveryDetailsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DeliveryMethodSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DesktopsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/HomeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/LaptopsAndNotebooksSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/MacBookAirSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/PaymentMethodSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/RegisterSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Annotations/MaxNumberOfRetries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Configs/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DataBase/SQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Listeners/AnnotationTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mssql-jdbc-9.4.1.jre16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProjectTests/ProjectTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24xTpsZ4HKCDhh8LVrasJrD0Aab" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ako Aleksidze\OneDrive\Desktop\TBC\TBC Project 2\Project2\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml">
+    <configuration name="C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCProject2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Configs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ProjectTests.ProjectTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Configs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ProjectTests.ProjectTest" />
+      <option name="METHOD_NAME" value="addToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest.order" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Configs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ProjectTests.ProjectTest" />
+      <option name="METHOD_NAME" value="order" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest.sorting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Configs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ProjectTests.ProjectTest" />
+      <option name="METHOD_NAME" value="sorting" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml" />
+        <item itemvalue="TestNG.ProjectTest" />
+        <item itemvalue="TestNG.ProjectTest.order" />
+        <item itemvalue="TestNG.ProjectTest.addToCart" />
+        <item itemvalue="TestNG.ProjectTest.sorting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd89fd53-8e1e-47c7-a7d9-693f86cfe688" name="Changes" comment="" />
+      <created>1644571427368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644571427368</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

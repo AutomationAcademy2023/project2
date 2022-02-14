@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="Utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Group Test">
+        <groups>
+            <run>
+                <include name="Regression1"/>
+                <include name="Regression2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ProjectTests.ProjectTest">
+                <!-- Method dependencies fail to run if I don't include the base method here -->
+                <methods>
+                    <include name="registration"/>
+                    <include name="addToCart"/>
+                    <include name="order"/>
+                    <include name="sorting"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
