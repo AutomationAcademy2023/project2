@@ -1,5 +1,6 @@
 package Data;
-import org.apache.commons.lang3.RandomStringUtils;
+
+import static Utils.UtilMethods.Methods.generateRandomAlphabetic;
 
 public class UserData {
     public String firstName = "Durmishkhan",
@@ -7,7 +8,7 @@ public class UserData {
             phone = "1122334455",
             password = "abcd1234",
             address = "Imis iqitis 2",
-            email = RandomStringUtils.randomAlphabetic(10) + "@gmail.com",
+            email = generateRandomAlphabetic(10) + "@gmail.com",
             country = "Georgia",
             state = "Tbilisi",
             city = "Tbilisi";

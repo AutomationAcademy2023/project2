@@ -1,15 +1,13 @@
 package ProjectTests;
 
 import Utils.Configs.Config;
-import Utils.Annotations.MaxNumberOfRetries;
 import Data.InsertDataBase;
 import Steps.*;
 
-import com.codeborne.selenide.testng.ScreenShooter;
+import Utils.Listeners.MyRetryAnalyzer;
 import io.qameta.allure.*;
 import org.testng.annotations.*;
 
-@Listeners({ScreenShooter.class})
 @Epic("ProjectTests")
 @Feature("ProjectTest")
 public class ProjectTest extends Config {
@@ -47,12 +45,7 @@ public class ProjectTest extends Config {
         homeSteps.openHomePage()
                 .clickMyAccount()
                 .clickRegister();
-        registerSteps.setFirstName()
-                .setLastName()
-                .setEmail()
-                .setPhone()
-                .setPassword()
-                .setConfirmPassword()
+        registerSteps.fillRegistrationForm()
                 .clickAgree()
                 .clickContinue();
     }
@@ -82,8 +75,7 @@ public class ProjectTest extends Config {
                 .validateAddition();
     }
 
-    @Test(dependsOnMethods={"addToCart"}, groups = {"Regression2"})
-    @MaxNumberOfRetries(3)
+    @Test(dependsOnMethods={"addToCart"}, groups = {"Regression2"}, retryAnalyzer = MyRetryAnalyzer.class)
     @Story("Order")
     @Description("Test Description: Ordering an item through checkout and filling shipping information")
     public void order(){

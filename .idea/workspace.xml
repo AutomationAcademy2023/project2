@@ -5,47 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd89fd53-8e1e-47c7-a7d9-693f86cfe688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Data/GetDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Data/InsertDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Data/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BillingDetailsStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ConfirmOrderStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DeliveryDetailsStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DeliveryMethodStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DesktopsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LaptopsAndNotebooksPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MacBookAirPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PaymentMethodStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/BillingDetailsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/ConfirmOrderSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DeliveryDetailsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DeliveryMethodSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DesktopsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/HomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/LaptopsAndNotebooksSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/MacBookAirSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/PaymentMethodSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/RegisterSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Annotations/MaxNumberOfRetries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Configs/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DataBase/SQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Listeners/AnnotationTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mssql-jdbc-9.4.1.jre16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProjectTests/ProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Listeners/MyRetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/UtilMethods/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/GetDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/GetDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/InsertDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/InsertDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/RegisterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Steps/RegisterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Annotations/MaxNumberOfRetries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Listeners/AnnotationTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Listeners/RetryAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mssql-jdbc-9.4.1.jre16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProjectTests/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProjectTests/ProjectTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +53,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="24xTpsZ4HKCDhh8LVrasJrD0Aab" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ako Aleksidze\OneDrive\Desktop\TBC\TBC Project 2\Project2\src\main\resources" />
@@ -102,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml">
+  <component name="RunManager" selected="TestNG.ProjectTest.registration">
     <configuration name="C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBCProject2" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -166,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectTest.sorting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBCProject2" />
+    <configuration name="ProjectTest.registration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBCDesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Configs.*" />
+          <option name="PATTERN" value="ProjectTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ProjectTests" />
       <option name="MAIN_CLASS_NAME" value="ProjectTests.ProjectTest" />
-      <option name="METHOD_NAME" value="sorting" />
+      <option name="METHOD_NAME" value="registration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -186,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProjectTest.registration" />
         <item itemvalue="TestNG.C:/Users/Ako Aleksidze/OneDrive/Desktop/TBC/TBC Project 2/Project2/TestNG.xml" />
         <item itemvalue="TestNG.ProjectTest" />
         <item itemvalue="TestNG.ProjectTest.order" />
         <item itemvalue="TestNG.ProjectTest.addToCart" />
-        <item itemvalue="TestNG.ProjectTest.sorting" />
       </list>
     </recent_temporary>
   </component>

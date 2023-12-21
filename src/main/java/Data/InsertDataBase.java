@@ -9,16 +9,13 @@ public class InsertDataBase {
 
     public void insertUser() {
         data = new UserData();
-        Connection conn = null;
-        PreparedStatement psInsert = null;
 
-        try {
-            conn = SQLConnection.getConnection();
+        String sqlInsert = "INSERT INTO [users].[dbo].[users](firstName, lastName, phone, password," +
+                "address, email, country, state, city, zip) " +
+                "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-            String sqlInsert = "INSERT INTO [users].[dbo].[users](firstName, lastName, phone, password," +
-                    "address, email, country, state, city, zip) " +
-                    "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            psInsert = conn.prepareStatement(sqlInsert);
+        try(Connection conn = SQLConnection.getConnection();
+            PreparedStatement psInsert = conn.prepareStatement(sqlInsert);) {
 
             psInsert.setString(1, data.firstName);
             psInsert.setString(2, data.lastName);
@@ -35,13 +32,6 @@ public class InsertDataBase {
 
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
-        } finally {
-            try {
-                if(psInsert != null) psInsert.close();
-                if(conn != null) conn.close();
-            } catch (SQLException ex) {
-                System.out.println(ex.getMessage());
-            }
         }
     }
 }

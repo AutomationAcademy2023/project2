@@ -7,42 +7,52 @@ public class RegisterSteps {
     RegisterPage registerPage = new RegisterPage();
     GetDataBase select = new GetDataBase();
 
-    public RegisterSteps setFirstName(){
+    public RegisterSteps setFirstName() {
         registerPage.firstName.setValue(select.getFirstName());
         return this;
     }
 
-    public RegisterSteps setLastName(){
+    public RegisterSteps setLastName() {
         registerPage.lastName.setValue(select.getLastName());
         return this;
     }
 
-    public RegisterSteps setEmail(){
+    public RegisterSteps setEmail() {
         registerPage.email.setValue(select.getEmail());
         return this;
     }
 
-    public RegisterSteps setPhone(){
+    public RegisterSteps setPhone() {
         registerPage.telephone.setValue(select.getPhone());
         return this;
     }
 
-    public RegisterSteps setPassword(){
+    public RegisterSteps setPassword() {
         registerPage.password.setValue(select.getPassword());
         return this;
     }
 
-    public RegisterSteps setConfirmPassword(){
+    public RegisterSteps setConfirmPassword() {
         registerPage.confirmPass.setValue(select.getPassword());
         return this;
     }
 
-    public RegisterSteps clickAgree(){
+    public RegisterSteps clickAgree() {
         registerPage.agree.click();
         return this;
     }
 
-    public void clickContinue(){
+    public RegisterSteps fillRegistrationForm() {
+        setFirstName();
+        setLastName();
+        setEmail();
+        setPhone();
+        setPassword();
+        setConfirmPassword();
+        return this;
+    }
+
+    public void clickContinue() {
         registerPage.submit.click();
     }
 }
